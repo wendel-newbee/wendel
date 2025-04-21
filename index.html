@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will You Marry Me?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="question">Hey baby...</h1>
+    <button class="start-btn" onclick="showProposal()">Click Me</button>
+
+    <div class="proposal hidden">
+      <img class="main-gif" src="https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif" alt="Cute Teddy GIF">
+      <h2 class="proposal-text">Will you be my wife?</h2>
+      <div class="btn-group">
+        <button onclick="sheSaidYes()">Yes</button>
+        <button onclick="sheSaidNo()">No</button>
+      </div>
+    </div>
+
+    <div class="response hidden" id="yes-response">
+      <img src="https://media2.giphy.com/media/IzXiddo2twMmdmU8Lv/giphy.gif?cid=6c09b952gvs2wfze7hay07hr1isxpr9789zuxy2tzgxnspgj&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Happy Teddy GIF">
+      <h2>Yay! I love you so much babyyyyyyyyyyyyyyyyyy :))))))))))))))</h2>
+    </div>
+
+    <div class="response hidden" id="no-response">
+      <img src="https://media.giphy.com/media/jqNPzdTTxQfOgOqpO4/giphy.gif" alt="Sad Crying GIF">
+      <h2>Nooo please say yes...</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
